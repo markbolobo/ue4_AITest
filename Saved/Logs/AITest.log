@@ -878,3 +878,370 @@ Script call stack:
 [2019.11.07-07.17.20:407][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2019.11.07-07.17.35:083][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
 [2019.11.07-07.17.35:516][140]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_CharacterCA1B9F67475D44DDE8A1AEAF0BE79155.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
+[2019.11.07-07.20.10:841][348]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.07-07.20.10:862][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.20.10:862][348]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.07-07.20.10:876][348]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
+[2019.11.07-07.20.11:306][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.11.07-07.20.11:306][348]LogPlayLevel: PlayLevel: Blueprint regeneration took 444 ms (1 blueprints)
+[2019.11.07-07.20.11:306][348]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:20:11)
+[2019.11.07-07.20.11:306][348]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
+[2019.11.07-07.20.11:453][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145846s)
+[2019.11.07-07.20.11:454][348]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-07.20.11:454][348]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.11.07-07.20.11:454][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.147702s)
+[2019.11.07-07.20.11:492][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.11.07-07.20.11:511][348]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-07.20.11:523][348]LogInit: FAudioDevice initialized.
+[2019.11.07-07.20.11:547][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.20.11:578][348]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
+[2019.11.07-07.20.11:617][348]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.20.11
+[2019.11.07-07.20.11:731][348]LogWorld: Bringing up level for play took: 0.152795
+[2019.11.07-07.20.11:750][348]Cmd: r.vsync 1
+[2019.11.07-07.20.11:750][348]r.VSync = "1"
+[2019.11.07-07.20.11:752][348]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:758][348]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:764][348]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:771][348]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:777][348]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:783][348]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.20.11:793][348]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.029
+[2019.11.07-07.20.11:794][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.20.12:698][412]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.13:270][469]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.13:532][496]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.13:710][514]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.20.15:821][728]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.16:170][764]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.16:491][796]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.16:767][824]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.17:047][853]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.17:503][900]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.17:656][916]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.18:239][976]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.18:467][999]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.18:720][ 25]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
+[2019.11.07-07.20.19:868][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.20.19:869][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.20.19:885][142]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.07-07.20.19:938][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.07-07.20.19:939][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.20.20:000][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.07-07.20.20:025][143]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.11.07-07.25.02:269][195]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.11.07-07.25.02:269][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultistoryDungeons/Scenes/Demo_01' took 0.036
+[2019.11.07-07.25.02:271][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sekiro/Blueprints/BP_Sekiro_Character] ([1] browsable assets)...
+[2019.11.07-07.25.02:289][195]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character]
+[2019.11.07-07.25.02:290][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sekiro/Blueprints/BP_Sekiro_Character]
+[2019.11.07-07.25.02:694][195]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character_Auto11BBA28AC4FE0ED6486798D9CE37FDB5F.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Autosaves/Game/Sekiro/Blueprints/BP_Sekiro_Character_Auto1.uasset'
+[2019.11.07-07.25.02:706][195]LogFileHelpers: Auto-saving content packages took 0.437
+[2019.11.07-07.26.13:058][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.07-07.26.13:182][735]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.07-07.26.13:206][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.26.13:206][735]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.07-07.26.13:221][735]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
+[2019.11.07-07.26.13:641][735]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.11.07-07.26.13:641][735]LogPlayLevel: PlayLevel: Blueprint regeneration took 435 ms (1 blueprints)
+[2019.11.07-07.26.13:641][735]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:26:13)
+[2019.11.07-07.26.13:642][735]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
+[2019.11.07-07.26.13:790][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148615s)
+[2019.11.07-07.26.13:791][735]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-07.26.13:791][735]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2019.11.07-07.26.13:792][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.150102s)
+[2019.11.07-07.26.13:824][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.11.07-07.26.13:843][735]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-07.26.13:854][735]LogInit: FAudioDevice initialized.
+[2019.11.07-07.26.13:882][735]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
+[2019.11.07-07.26.13:922][735]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.26.13
+[2019.11.07-07.26.14:039][735]LogWorld: Bringing up level for play took: 0.155048
+[2019.11.07-07.26.14:059][735]Cmd: r.vsync 1
+[2019.11.07-07.26.14:059][735]r.VSync = "1"
+[2019.11.07-07.26.14:061][735]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:068][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:074][735]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:080][735]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:086][735]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:092][735]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.26.14:101][735]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.337
+[2019.11.07-07.26.14:102][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.26.16:081][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.26.16:083][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.26.16:083][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.28.18:209][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.28.18:210][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.28.18:399][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.07-07.28.18:400][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.28.18:439][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.28.18:458][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.07-07.28.18:472][876]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.07-07.30.41:192][ 71]LogSlate: Took 0.005549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.07-07.35.02:982][279]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.07-07.35.03:007][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.03:008][279]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.07-07.35.03:024][279]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
+[2019.11.07-07.35.03:476][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.11.07-07.35.03:477][279]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
+[2019.11.07-07.35.03:478][279]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:35:03)
+[2019.11.07-07.35.03:478][279]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
+[2019.11.07-07.35.03:623][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143819s)
+[2019.11.07-07.35.03:623][279]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-07.35.03:623][279]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.11.07-07.35.03:624][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.146016s)
+[2019.11.07-07.35.03:658][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.07-07.35.03:676][279]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-07.35.03:688][279]LogInit: FAudioDevice initialized.
+[2019.11.07-07.35.03:714][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.35.03:748][279]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
+[2019.11.07-07.35.03:789][279]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.35.03
+[2019.11.07-07.35.03:905][279]LogWorld: Bringing up level for play took: 0.154680
+[2019.11.07-07.35.03:925][279]Cmd: r.vsync 1
+[2019.11.07-07.35.03:926][279]r.VSync = "1"
+[2019.11.07-07.35.03:928][279]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:934][279]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:941][279]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:947][279]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:955][279]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:961][279]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.03:972][279]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.208
+[2019.11.07-07.35.03:973][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.06:006][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.06:006][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.06:007][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.06:007][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.06:008][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.06:008][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.12:817][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.12:817][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.35.12:837][791]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.07-07.35.12:891][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.07-07.35.12:891][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.12:953][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.11.07-07.35.12:974][792]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.07-07.35.14:298][884]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.07-07.35.14:319][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.14:320][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.07-07.35.14:320][884]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:35:14)
+[2019.11.07-07.35.14:320][884]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
+[2019.11.07-07.35.14:458][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138394s)
+[2019.11.07-07.35.14:459][884]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-07.35.14:459][884]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2019.11.07-07.35.14:460][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.140106s)
+[2019.11.07-07.35.14:497][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.07-07.35.14:516][884]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-07.35.14:527][884]LogInit: FAudioDevice initialized.
+[2019.11.07-07.35.14:550][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.35.14:584][884]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
+[2019.11.07-07.35.14:653][884]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.35.14
+[2019.11.07-07.35.14:780][884]LogWorld: Bringing up level for play took: 0.195488
+[2019.11.07-07.35.14:800][884]Cmd: r.vsync 1
+[2019.11.07-07.35.14:800][884]r.VSync = "1"
+[2019.11.07-07.35.14:802][884]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:809][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:815][884]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:821][884]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:828][884]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:834][884]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.35.14:846][884]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 0.083
+[2019.11.07-07.35.14:847][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.16:826][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.16:826][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.35.45:657][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.45:658][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.35.45:675][476]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.07-07.35.45:728][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.07-07.35.45:729][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.35.45:793][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.07-07.35.45:814][477]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.07-07.37.49:097][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.11.07-07.37.49:097][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultistoryDungeons/Scenes/Demo_01' took 0.038
+[2019.11.07-07.37.49:099][186]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sekiro/Blueprints/BP_Sekiro_Character] ([1] browsable assets)...
+[2019.11.07-07.37.49:119][186]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character]
+[2019.11.07-07.37.49:119][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sekiro/Blueprints/BP_Sekiro_Character]
+[2019.11.07-07.37.49:630][186]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character_Auto28C820B3745ADB5C19113368D8C531DFF.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Autosaves/Game/Sekiro/Blueprints/BP_Sekiro_Character_Auto2.uasset'
+[2019.11.07-07.37.49:631][186]LogFileHelpers: Auto-saving content packages took 0.533
+[2019.11.07-07.38.33:603][386]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.07-07.38.33:628][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.38.33:629][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.07-07.38.33:629][386]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:38:33)
+[2019.11.07-07.38.33:629][386]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
+[2019.11.07-07.38.33:778][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149201s)
+[2019.11.07-07.38.33:779][386]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-07.38.33:779][386]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2019.11.07-07.38.33:780][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.150805s)
+[2019.11.07-07.38.33:818][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.11.07-07.38.33:837][386]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-07.38.33:851][386]LogInit: FAudioDevice initialized.
+[2019.11.07-07.38.33:876][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.38.33:907][386]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
+[2019.11.07-07.38.33:953][386]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.38.33
+[2019.11.07-07.38.34:077][386]LogWorld: Bringing up level for play took: 0.169379
+[2019.11.07-07.38.34:097][386]Cmd: r.vsync 1
+[2019.11.07-07.38.34:097][386]r.VSync = "1"
+[2019.11.07-07.38.34:099][386]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:106][386]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:113][386]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:118][386]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:126][386]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:132][386]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
+Script call stack:
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
+	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
+
+[2019.11.07-07.38.34:146][386]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.383
+[2019.11.07-07.38.34:147][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.38.36:136][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.38.36:136][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2019.11.07-07.39.43:016][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.39.43:016][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-07.39.43:038][923]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.07-07.39.43:095][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.07-07.39.43:096][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
+[2019.11.07-07.39.43:162][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.07-07.39.43:185][924]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.07-07.40.36:510][115]LogEditorTransaction: Undo Add Node
+[2019.11.07-07.40.49:622][608]BlueprintLog: New page: Compile BP_Sekiro_Character
+[2019.11.07-07.40.50:039][608]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.11.07-07.40.50:619][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
+[2019.11.07-07.40.51:038][667]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character4A6FA6BB4D41537F824D9C9BC6973C2D.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
+[2019.11.07-07.43.44:373][343]BlueprintLog: New page: Compile BP_Sekiro_Character
+[2019.11.07-07.43.44:808][343]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.11.07-07.43.45:295][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
+[2019.11.07-07.43.45:737][388]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character57E9377843ABD81AA6F92CB9577F34D4.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
+[2019.11.07-07.44.29:920][373]BlueprintLog: New page: Compile BP_Sekiro_Character
+[2019.11.07-07.44.30:494][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.11.07-07.44.30:969][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
+[2019.11.07-07.44.31:391][413]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_CharacterCE3374B847939A6C969B6CB872355412.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
+[2019.11.07-07.44.39:444][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
