@@ -1,4 +1,4 @@
-﻿Log file open, 11/07/19 15:12:48
+﻿Log file open, 11/08/19 03:13:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: AITest
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.270828
+LogStats: Stats thread started at 0.274278
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -116,7 +116,6 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogHMD: Failed initializing OVRPlugin 1.32.0
 LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
@@ -157,1091 +156,488 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.07-07.12.49:091][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.07-07.12.49:091][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.07-07.12.49:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:091][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.07-07.12.49:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.07-07.12.49:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:092][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:094][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.07-07.12.49:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.07-07.12.49:095][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.07-07.12.49:095][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.07-07.12.49:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.07-07.12.49:110][  0]LogHAL: Display: Platform has ~ 32 GB [34309324800 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.11.07-07.12.49:110][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.07-07.12.49:110][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.07-07.12.49:110][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.07-07.12.49:111][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
-[2019.11.07-07.12.49:111][  0]LogInit: Computer: DESKTOP-G2NSNKA
-[2019.11.07-07.12.49:111][  0]LogInit: User: PC09
-[2019.11.07-07.12.49:111][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.11.07-07.12.49:111][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.07-07.12.49:111][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2019.11.07-07.12.49:111][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.07-07.12.49:111][  0]LogMemory: Process Physical Memory: 101.38 MB used, 101.39 MB peak
-[2019.11.07-07.12.49:111][  0]LogMemory: Process Virtual Memory: 101.20 MB used, 101.20 MB peak
-[2019.11.07-07.12.49:111][  0]LogMemory: Physical Memory: 8764.79 MB used,  23955.13 MB free, 32719.92 MB total
-[2019.11.07-07.12.49:111][  0]LogMemory: Virtual Memory: 4669.89 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.11.07-07.12.49:133][  0]LogInit: Using OS detected language (zh-TW).
-[2019.11.07-07.12.49:133][  0]LogInit: Using OS detected locale (zh-TW).
-[2019.11.07-07.12.49:133][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
-[2019.11.07-07.12.49:292][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.07-07.12.49:355][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.07-07.12.49:355][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.07-07.12.49:505][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.07-07.12.49:505][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.07-07.12.49:572][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.11.07-07.12.49:572][  0]LogD3D11RHI:       8088/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.11.07-07.12.49:575][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.07-07.12.49:575][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.07-07.12.49:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.07-07.12.49:583][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.07-07.12.49:583][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.11.07-07.12.49:583][  0]LogWindows: EnumDisplayDevices:
-[2019.11.07-07.12.49:583][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.11.07-07.12.49:583][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.11.07-07.12.49:583][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.11.07-07.12.49:584][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.11.07-07.12.49:584][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.11.07-07.12.49:584][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.11.07-07.12.49:584][  0]LogD3D11RHI:   Driver Version: 440.97 (internal:26.21.14.4097, unified:440.97)
-[2019.11.07-07.12.49:584][  0]LogD3D11RHI:      Driver Date: 10-16-2019
-[2019.11.07-07.12.49:584][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.11.07-07.12.49:624][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.07-07.12.49:628][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.07-07.12.49:628][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.07-07.12.49:628][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.07-07.12.49:635][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.07-07.12.49:927][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.07-07.12.49:940][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.07-07.12.49:953][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.07-07.12.49:966][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.07-07.12.49:978][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.07-07.12.49:991][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.07-07.12.50:004][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.07-07.12.50:017][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.07-07.12.50:022][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.07-07.12.50:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.07-07.12.50:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.07-07.12.50:099][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.07-07.12.50:147][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.07-07.12.50:147][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.07-07.12.50:169][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.07-07.12.50:169][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.07-07.12.50:180][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.07-07.12.50:191][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.07-07.12.50:203][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.07-07.12.50:214][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.07-07.12.50:259][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.07-07.12.50:259][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.07-07.12.50:259][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.07-07.12.50:268][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.07-07.12.50:316][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/MarkProjects/Unreal4Projects/UE4_AITest/Intermediate/Shaders/WorkingDirectory/19124/).
-[2019.11.07-07.12.50:316][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC-09/AppData/Local/Temp/UnrealShaderWorkingDir/8246F204437E2725711D69AE3CC97C04/'.
-[2019.11.07-07.12.50:318][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.07-07.12.50:318][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.07-07.12.50:318][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.07-07.12.50:819][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MarkProjects/Unreal4Projects/UE4_AITest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MarkProjects/Unreal4Projects/UE4_AITest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.07-07.12.50:866][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.07-07.12.50:878][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.07-07.12.50:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.07-07.12.50:878][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.07-07.12.50:891][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC-09/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.07-07.12.50:891][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.07-07.12.50:891][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.07-07.12.50:913][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.07-07.12.50:914][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.07-07.12.50:914][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.07-07.12.50:991][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
-[2019.11.07-07.12.51:303][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.07-07.12.51:428][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.07-07.12.51:428][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.07-07.12.51:428][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.07-07.12.51:428][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.07-07.12.51:428][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.07-07.12.51:439][  0]LogNetVersion: AITest 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 100952254)
-[2019.11.07-07.12.51:823][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.039056 seconds
-[2019.11.07-07.12.51:828][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.11.07-07.12.51:828][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.11.07-07.12.51:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.07-07.12.52:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.07-07.12.52:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.07-07.12.52:686][  0]SourceControl: Source control is disabled
-[2019.11.07-07.12.52:686][  0]SourceControl: Source control is disabled
-[2019.11.07-07.12.52:687][  0]SourceControl: Source control is disabled
-[2019.11.07-07.12.52:688][  0]SourceControl: Source control is disabled
-[2019.11.07-07.12.52:753][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.07-07.12.52:837][  0]LogOcInput: OculusInput pre-init called
-[2019.11.07-07.12.53:445][  0]LogEngine: Initializing Engine...
-[2019.11.07-07.12.53:446][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.07-07.12.53:447][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.07-07.12.53:646][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.07-07.12.53:658][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.07-07.12.53:689][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.12.53:706][  0]LogInit: FAudioDevice initialized.
-[2019.11.07-07.12.53:706][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.07-07.12.53:788][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.11.07-07.12.53:798][  0]LogInit: Texture streaming: Enabled
-[2019.11.07-07.12.53:817][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.07-07.12.53:837][  0]LogInit: Transaction tracking system initialized
-[2019.11.07-07.12.53:859][  0]BlueprintLog: New page: Editor Load
-[2019.11.07-07.12.53:934][  0]LocalizationService: Localization service is disabled
-[2019.11.07-07.12.54:204][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.07-07.12.54:204][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.07-07.12.54:359][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/' took 0.02s
-[2019.11.07-07.12.54:359][  0]SourceControl: Source control is disabled
-[2019.11.07-07.12.54:359][  0]Cmd: MAP LOAD FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/MultistoryDungeons/Scenes/Demo_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.07-07.12.54:407][  0]LightingResults: New page: Lighting Build
-[2019.11.07-07.12.54:411][  0]MapCheck: New page: Map Check
-[2019.11.07-07.12.54:411][  0]LightingResults: New page: Lighting Build
-[2019.11.07-07.12.54:432][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2019.11.07-07.13.03:385][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.03:385][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:096][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.05:096][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by Detection_GEN_VARIABLE
-[2019.11.07-07.13.05:096][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:096][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.05:097][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage Referenced by Detection_GEN_VARIABLE
-[2019.11.07-07.13.05:097][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:121][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.05:121][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by K2Node_CallFunction_1064
-[2019.11.07-07.13.05:121][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:131][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.05:131][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by K2Node_CallFunction_1064
-[2019.11.07-07.13.05:131][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:507][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
-[2019.11.07-07.13.05:507][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
-[2019.11.07-07.13.05:573][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
-[2019.11.07-07.13.05:574][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
-[2019.11.07-07.13.05:713][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
-[2019.11.07-07.13.05:713][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
-[2019.11.07-07.13.05:732][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
-[2019.11.07-07.13.05:732][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
-[2019.11.07-07.13.05:733][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
-[2019.11.07-07.13.05:733][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
-[2019.11.07-07.13.05:990][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
-[2019.11.07-07.13.05:990][  0]LoadErrors: Failed to load /Game/MultistoryDungeons/Scenes/Demo_01_BuiltData.Demo_01_BuiltData Referenced by PersistentLevel
-[2019.11.07-07.13.05:990][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
-[2019.11.07-07.13.12:787][  0]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.13.13:163][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.07-07.13.13:260][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
-[2019.11.07-07.13.13:260][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.07-07.13.13:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.311ms to complete.
-[2019.11.07-07.13.13:260][  0]LogFileHelpers: Loading map 'Demo_01' took 18.901
-[2019.11.07-07.13.13:432][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.13.13:440][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.13.13:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.13.13:456][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.13.13:474][  0]LogCollectionManager: Loaded 0 collections in 0.001654 seconds
-[2019.11.07-07.13.13:526][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Collections/' took 0.01s
-[2019.11.07-07.13.13:526][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Developers/PC09/Collections/' took 0.00s
-[2019.11.07-07.13.13:526][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Collections/' took 0.01s
-[2019.11.07-07.13.13:526][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.11.07-07.13.13:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2732 classes and 659 folders.
-[2019.11.07-07.13.13:557][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.07-07.13.13:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:631][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:654][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:669][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:690][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:732][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:745][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:751][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:759][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.07-07.13.13:949][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.07-07.13.13:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.11.07-07.13.15:445][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.11.07-07.13.15:571][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.07-07.13.15:571][  0]LogLoad: (Engine Initialization) Total time: 28.63 seconds
-[2019.11.07-07.13.15:571][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.07-07.13.15:701][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
-[2019.11.07-07.13.15:701][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.07-07.13.15:711][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.07-07.13.15:713][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.07-07.13.15:716][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.07-07.13.15:731][  0]LogSlate: Took 0.008849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.07-07.13.15:742][  0]LogSlate: Took 0.007508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.11.07-07.13.15:947][  0]LogRenderer: Reallocating scene render targets to support 1204x244 Format 10 NumSamples 1 (Frame:1).
-[2019.11.07-07.13.15:947][  0]LogSlate: Took 0.007420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.07-07.13.16:010][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/' took 0.40s
-[2019.11.07-07.13.16:070][  1]LogAssetRegistry: Asset discovery search completed in 25.1004 seconds
-[2019.11.07-07.13.16:073][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.11.07-07.13.16:073][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000155 seconds (updated 0 objects)
-[2019.11.07-07.13.16:693][  3]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.07-07.13.17:727][ 95]LogRenderer: Reallocating scene render targets to support 1204x256 Format 10 NumSamples 1 (Frame:1).
-[2019.11.07-07.13.27:694][243]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1153).
-[2019.11.07-07.13.31:314][617]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.13.31:333][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.13.31:333][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.07-07.13.31:334][617]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:13:31)
-[2019.11.07-07.13.31:352][617]LogSlate: Took 0.017235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.11.07-07.13.31:366][617]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.13.31:501][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134282s)
-[2019.11.07-07.13.31:501][617]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.13.31:501][617]LogPlayLevel: PIE: World Init took: (0.000621s)
-[2019.11.07-07.13.31:502][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.135954s)
-[2019.11.07-07.13.31:527][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2019.11.07-07.13.31:549][617]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.13.31:561][617]LogInit: FAudioDevice initialized.
-[2019.11.07-07.13.31:603][617]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.13.31:645][617]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.13.31
-[2019.11.07-07.13.31:769][617]LogWorld: Bringing up level for play took: 0.164680
-[2019.11.07-07.13.31:798][617]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2019.11.07-07.13.31:803][617]Cmd: r.vsync 1
-[2019.11.07-07.13.31:804][617]r.VSync = "1"
-[2019.11.07-07.13.31:809][617]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:825][617]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:831][617]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:837][617]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:843][617]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:850][617]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.31:865][617]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.102
-[2019.11.07-07.13.31:866][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.13.33:858][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.33:858][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.33:858][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.33:859][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.33:859][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.33:859][789]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.36:145][ 56]LogNet: Browse: /Game/MultistoryDungeons/Scenes/First-Person_Demo_V2
-[2019.11.07-07.13.36:151][ 56]LogLoad: LoadMap: /Game/MultistoryDungeons/Scenes/First-Person_Demo_V2
-[2019.11.07-07.13.36:205][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2019.11.07-07.13.36:924][ 56]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.36:924][ 56]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.38:064][ 56]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.38:064][ 56]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.38:076][ 56]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.38:076][ 56]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.38:076][ 56]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.38:077][ 56]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.38:323][ 56]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.38:323][ 56]LoadErrors: Failed to load /Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData.First-Person_Demo_V2_BuiltData Referenced by PersistentLevel
-[2019.11.07-07.13.38:323][ 56]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.41:531][ 56]LogAIModule: Creating AISystem for world First-Person_Demo_V2
-[2019.11.07-07.13.41:531][ 56]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
-[2019.11.07-07.13.41:532][ 56]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
-[2019.11.07-07.13.41:532][ 56]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
-[2019.11.07-07.13.41:532][ 56]LogLoad: Game class is 'GameModeBase'
-[2019.11.07-07.13.41:652][ 56]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_First-Person_Demo_V2.First-Person_Demo_V2 up for play (max tick rate 0) at 2019.11.07-15.13.41
-[2019.11.07-07.13.41:697][ 56]LogWorld: Bringing up level for play took: 0.162504
-[2019.11.07-07.13.41:702][ 56]Cmd: r.vsync 1
-[2019.11.07-07.13.41:702][ 56]r.VSync = "1"
-[2019.11.07-07.13.41:703][ 56]LogLoad: Took 5.550664 seconds to LoadMap(/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2)
-[2019.11.07-07.13.45:794][434]LogNet: Browse: /Game/MultistoryDungeons/Scenes/Demo_01
-[2019.11.07-07.13.45:802][434]LogLoad: LoadMap: /Game/MultistoryDungeons/Scenes/Demo_01
-[2019.11.07-07.13.45:869][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
-[2019.11.07-07.13.45:870][434]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.13.46:008][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137583s)
-[2019.11.07-07.13.46:008][434]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.13.46:008][434]LogPlayLevel: PIE: World Init took: (0.000564s)
-[2019.11.07-07.13.46:009][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.139451s)
-[2019.11.07-07.13.46:009][434]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.13.46:048][434]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.13.46
-[2019.11.07-07.13.46:162][434]LogWorld: Bringing up level for play took: 0.151175
-[2019.11.07-07.13.46:170][434]Cmd: r.vsync 1
-[2019.11.07-07.13.46:170][434]r.VSync = "1"
-[2019.11.07-07.13.46:172][434]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:178][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:184][434]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:190][434]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:195][434]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:202][434]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.46:210][434]LogLoad: Took 0.408119 seconds to LoadMap(/Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01)
-[2019.11.07-07.13.47:724][574]LogNet: Browse: /Game/MultistoryDungeons/Scenes/First-Person_Demo_V2
-[2019.11.07-07.13.47:733][574]LogLoad: LoadMap: /Game/MultistoryDungeons/Scenes/First-Person_Demo_V2
-[2019.11.07-07.13.47:787][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2019.11.07-07.13.47:810][574]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.47:810][574]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.47:824][574]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.47:824][574]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.47:835][574]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.47:836][574]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.47:836][574]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.47:836][574]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.48:010][574]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData'
-[2019.11.07-07.13.48:010][574]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2_BuiltData' while loading NULL.
-[2019.11.07-07.13.48:250][574]LogAIModule: Creating AISystem for world First-Person_Demo_V2
-[2019.11.07-07.13.48:251][574]LogLoad: Game class is 'GameModeBase'
-[2019.11.07-07.13.48:365][574]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_First-Person_Demo_V2.First-Person_Demo_V2 up for play (max tick rate 0) at 2019.11.07-15.13.48
-[2019.11.07-07.13.48:407][574]LogWorld: Bringing up level for play took: 0.155580
-[2019.11.07-07.13.48:411][574]Cmd: r.vsync 1
-[2019.11.07-07.13.48:411][574]r.VSync = "1"
-[2019.11.07-07.13.48:411][574]LogLoad: Took 0.678843 seconds to LoadMap(/Game/MultistoryDungeons/Scenes/First-Person_Demo_V2)
-[2019.11.07-07.13.49:311][639]LogNet: Browse: /Game/MultistoryDungeons/Scenes/Demo_01
-[2019.11.07-07.13.49:323][639]LogLoad: LoadMap: /Game/MultistoryDungeons/Scenes/Demo_01
-[2019.11.07-07.13.49:391][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2019.11.07-07.13.49:392][639]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.13.49:536][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143146s)
-[2019.11.07-07.13.49:536][639]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.13.49:537][639]LogPlayLevel: PIE: World Init took: (0.000593s)
-[2019.11.07-07.13.49:537][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.144665s)
-[2019.11.07-07.13.49:537][639]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.13.49:577][639]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.13.49
-[2019.11.07-07.13.49:689][639]LogWorld: Bringing up level for play took: 0.150946
-[2019.11.07-07.13.49:697][639]Cmd: r.vsync 1
-[2019.11.07-07.13.49:697][639]r.VSync = "1"
-[2019.11.07-07.13.49:700][639]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:705][639]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:710][639]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:718][639]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:724][639]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:731][639]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.13.49:739][639]LogLoad: Took 0.417305 seconds to LoadMap(/Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01)
-[2019.11.07-07.13.51:718][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.51:718][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.51:718][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.51:719][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.51:719][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.13.51:719][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.14.18:883][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.14.18:883][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.14.18:928][685]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.14.18:929][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.14.18:963][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.14.18:979][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
-[2019.11.07-07.14.19:006][686]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.11.07-07.14.29:773][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.07-07.14.29:855][623]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character
-[2019.11.07-07.14.30:233][623]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.11.07-07.14.31:193][623]LogSlate: Took 0.005149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.07-07.14.31:495][624]LogSlate: Took 0.005286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.07-07.16.08:658][961]LogEditorTransaction: Undo Move Node
-[2019.11.07-07.16.09:363][ 16]LogEditorTransaction: Undo Paste clipboard contents
-[2019.11.07-07.16.11:048][188]LogUObjectHash: Warning: Ambiguous search, could be K2Node_GetInputAxisValue /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character:TickLock.K2Node_GetInputAxisValue_3 or K2Node_GetInputAxisValue /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character:TickLock.K2Node_GetInputAxisValue_3
-[2019.11.07-07.16.30:588][236]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.16.30:611][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.16.30:611][236]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.11.07-07.16.30:637][236]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
-[2019.11.07-07.16.31:059][236]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
-[2019.11.07-07.16.31:059][236]LogPlayLevel: PlayLevel: Blueprint regeneration took 447 ms (1 blueprints)
-[2019.11.07-07.16.31:059][236]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:16:31)
-[2019.11.07-07.16.31:060][236]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.16.31:196][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135310s)
-[2019.11.07-07.16.31:197][236]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.16.31:197][236]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2019.11.07-07.16.31:198][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.137580s)
-[2019.11.07-07.16.31:231][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2019.11.07-07.16.31:250][236]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.16.31:261][236]LogInit: FAudioDevice initialized.
-[2019.11.07-07.16.31:286][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.16.31:319][236]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.16.31:358][236]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.16.31
-[2019.11.07-07.16.31:471][236]LogWorld: Bringing up level for play took: 0.152050
-[2019.11.07-07.16.31:493][236]Cmd: r.vsync 1
-[2019.11.07-07.16.31:493][236]r.VSync = "1"
-[2019.11.07-07.16.31:496][236]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:502][236]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:508][236]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:515][236]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:521][236]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:527][236]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.16.31:537][236]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 0.774
-[2019.11.07-07.16.31:538][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.16.31:626][237]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
-[2019.11.07-07.16.33:579][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.16.33:579][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.16.33:579][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.16.33:580][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.16.33:580][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.16.33:580][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.17.20:245][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.17.20:245][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.17.20:264][ 83]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.07-07.17.20:318][ 83]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.17.20:318][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.17.20:379][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2019.11.07-07.17.20:407][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.11.07-07.17.35:083][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
-[2019.11.07-07.17.35:516][140]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_CharacterCA1B9F67475D44DDE8A1AEAF0BE79155.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
-[2019.11.07-07.20.10:841][348]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.20.10:862][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.20.10:862][348]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.11.07-07.20.10:876][348]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
-[2019.11.07-07.20.11:306][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
-[2019.11.07-07.20.11:306][348]LogPlayLevel: PlayLevel: Blueprint regeneration took 444 ms (1 blueprints)
-[2019.11.07-07.20.11:306][348]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:20:11)
-[2019.11.07-07.20.11:306][348]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.20.11:453][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145846s)
-[2019.11.07-07.20.11:454][348]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.20.11:454][348]LogPlayLevel: PIE: World Init took: (0.000681s)
-[2019.11.07-07.20.11:454][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.147702s)
-[2019.11.07-07.20.11:492][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2019.11.07-07.20.11:511][348]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.20.11:523][348]LogInit: FAudioDevice initialized.
-[2019.11.07-07.20.11:547][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.20.11:578][348]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.20.11:617][348]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.20.11
-[2019.11.07-07.20.11:731][348]LogWorld: Bringing up level for play took: 0.152795
-[2019.11.07-07.20.11:750][348]Cmd: r.vsync 1
-[2019.11.07-07.20.11:750][348]r.VSync = "1"
-[2019.11.07-07.20.11:752][348]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:758][348]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:764][348]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:771][348]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:777][348]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:783][348]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.20.11:793][348]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.029
-[2019.11.07-07.20.11:794][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.20.12:698][412]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.13:270][469]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.13:532][496]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.13:710][514]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.13:818][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.13:819][525]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.20.15:821][728]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.16:170][764]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.16:491][796]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.16:767][824]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.17:047][853]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.17:503][900]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.17:656][916]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.18:239][976]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.18:467][999]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.18:720][ 25]LogBlueprintUserMessages: [BP_Sekiro_Character_C_0] Block
-[2019.11.07-07.20.19:868][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.20.19:869][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.20.19:885][142]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.07-07.20.19:938][142]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.20.19:939][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.20.20:000][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
-[2019.11.07-07.20.20:025][143]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.11.07-07.25.02:269][195]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
-[2019.11.07-07.25.02:269][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultistoryDungeons/Scenes/Demo_01' took 0.036
-[2019.11.07-07.25.02:271][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sekiro/Blueprints/BP_Sekiro_Character] ([1] browsable assets)...
-[2019.11.07-07.25.02:289][195]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character]
-[2019.11.07-07.25.02:290][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sekiro/Blueprints/BP_Sekiro_Character]
-[2019.11.07-07.25.02:694][195]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character_Auto11BBA28AC4FE0ED6486798D9CE37FDB5F.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Autosaves/Game/Sekiro/Blueprints/BP_Sekiro_Character_Auto1.uasset'
-[2019.11.07-07.25.02:706][195]LogFileHelpers: Auto-saving content packages took 0.437
-[2019.11.07-07.26.13:058][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.07-07.26.13:182][735]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.26.13:206][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.26.13:206][735]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.11.07-07.26.13:221][735]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
-[2019.11.07-07.26.13:641][735]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
-[2019.11.07-07.26.13:641][735]LogPlayLevel: PlayLevel: Blueprint regeneration took 435 ms (1 blueprints)
-[2019.11.07-07.26.13:641][735]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:26:13)
-[2019.11.07-07.26.13:642][735]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.26.13:790][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148615s)
-[2019.11.07-07.26.13:791][735]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.26.13:791][735]LogPlayLevel: PIE: World Init took: (0.000686s)
-[2019.11.07-07.26.13:792][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.150102s)
-[2019.11.07-07.26.13:824][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2019.11.07-07.26.13:843][735]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.26.13:854][735]LogInit: FAudioDevice initialized.
-[2019.11.07-07.26.13:882][735]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.26.13:922][735]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.26.13
-[2019.11.07-07.26.14:039][735]LogWorld: Bringing up level for play took: 0.155048
-[2019.11.07-07.26.14:059][735]Cmd: r.vsync 1
-[2019.11.07-07.26.14:059][735]r.VSync = "1"
-[2019.11.07-07.26.14:061][735]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:068][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:074][735]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:080][735]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:086][735]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:092][735]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.26.14:101][735]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.337
-[2019.11.07-07.26.14:102][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.26.16:081][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.26.16:082][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.26.16:083][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.26.16:083][946]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.28.18:209][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.28.18:210][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.28.18:399][875]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.28.18:400][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.28.18:439][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.28.18:458][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
-[2019.11.07-07.28.18:472][876]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.11.07-07.30.41:192][ 71]LogSlate: Took 0.005549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.11.07-07.35.02:982][279]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.35.03:007][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.03:008][279]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.11.07-07.35.03:024][279]LogPlayLevel: [PlayLevel] Compiling BP_Sekiro_Character before play...
-[2019.11.07-07.35.03:476][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
-[2019.11.07-07.35.03:477][279]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
-[2019.11.07-07.35.03:478][279]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:35:03)
-[2019.11.07-07.35.03:478][279]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.35.03:623][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143819s)
-[2019.11.07-07.35.03:623][279]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.35.03:623][279]LogPlayLevel: PIE: World Init took: (0.000657s)
-[2019.11.07-07.35.03:624][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.146016s)
-[2019.11.07-07.35.03:658][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2019.11.07-07.35.03:676][279]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.35.03:688][279]LogInit: FAudioDevice initialized.
-[2019.11.07-07.35.03:714][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.35.03:748][279]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.35.03:789][279]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.35.03
-[2019.11.07-07.35.03:905][279]LogWorld: Bringing up level for play took: 0.154680
-[2019.11.07-07.35.03:925][279]Cmd: r.vsync 1
-[2019.11.07-07.35.03:926][279]r.VSync = "1"
-[2019.11.07-07.35.03:928][279]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:934][279]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:941][279]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:947][279]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:955][279]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:961][279]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.03:972][279]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.208
-[2019.11.07-07.35.03:973][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.06:006][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.06:006][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.06:007][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.06:007][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.06:008][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.06:008][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.12:817][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.12:817][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.35.12:837][791]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.07-07.35.12:891][791]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.35.12:891][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.12:953][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
-[2019.11.07-07.35.12:974][792]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.11.07-07.35.14:298][884]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.35.14:319][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.14:320][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.07-07.35.14:320][884]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:35:14)
-[2019.11.07-07.35.14:320][884]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.35.14:458][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138394s)
-[2019.11.07-07.35.14:459][884]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.35.14:459][884]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2019.11.07-07.35.14:460][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.140106s)
-[2019.11.07-07.35.14:497][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2019.11.07-07.35.14:516][884]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.35.14:527][884]LogInit: FAudioDevice initialized.
-[2019.11.07-07.35.14:550][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.35.14:584][884]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.35.14:653][884]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.35.14
-[2019.11.07-07.35.14:780][884]LogWorld: Bringing up level for play took: 0.195488
-[2019.11.07-07.35.14:800][884]Cmd: r.vsync 1
-[2019.11.07-07.35.14:800][884]r.VSync = "1"
-[2019.11.07-07.35.14:802][884]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:809][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:815][884]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:821][884]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:828][884]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:834][884]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.35.14:846][884]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 0.083
-[2019.11.07-07.35.14:847][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.16:826][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.16:826][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.16:827][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.35.45:657][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.45:658][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.35.45:675][476]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.07-07.35.45:728][476]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.35.45:729][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.35.45:793][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2019.11.07-07.35.45:814][477]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.11.07-07.37.49:097][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2019.11.07-07.37.49:097][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultistoryDungeons/Scenes/Demo_01' took 0.038
-[2019.11.07-07.37.49:099][186]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sekiro/Blueprints/BP_Sekiro_Character] ([1] browsable assets)...
-[2019.11.07-07.37.49:119][186]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_Character.BP_Sekiro_Character]
-[2019.11.07-07.37.49:119][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sekiro/Blueprints/BP_Sekiro_Character]
-[2019.11.07-07.37.49:630][186]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character_Auto28C820B3745ADB5C19113368D8C531DFF.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Autosaves/Game/Sekiro/Blueprints/BP_Sekiro_Character_Auto2.uasset'
-[2019.11.07-07.37.49:631][186]LogFileHelpers: Auto-saving content packages took 0.533
-[2019.11.07-07.38.33:603][386]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.07-07.38.33:628][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.38.33:629][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.07-07.38.33:629][386]PIE: New page: PIE session: Demo_01 (2019年11月7日 下午11:38:33)
-[2019.11.07-07.38.33:629][386]LogPlayLevel: Creating play world package: /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01
-[2019.11.07-07.38.33:778][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149201s)
-[2019.11.07-07.38.33:779][386]LogAIModule: Creating AISystem for world Demo_01
-[2019.11.07-07.38.33:779][386]LogPlayLevel: PIE: World Init took: (0.000755s)
-[2019.11.07-07.38.33:780][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultistoryDungeons/Scenes/Demo_01.Demo_01 to /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 (0.150805s)
-[2019.11.07-07.38.33:818][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
-[2019.11.07-07.38.33:837][386]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.07-07.38.33:851][386]LogInit: FAudioDevice initialized.
-[2019.11.07-07.38.33:876][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.38.33:907][386]LogLoad: Game class is 'BP_Sekiro_GameMode_C'
-[2019.11.07-07.38.33:953][386]LogWorld: Bringing World /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01.Demo_01 up for play (max tick rate 0) at 2019.11.07-15.38.33
-[2019.11.07-07.38.34:077][386]LogWorld: Bringing up level for play took: 0.169379
-[2019.11.07-07.38.34:097][386]Cmd: r.vsync 1
-[2019.11.07-07.38.34:097][386]r.VSync = "1"
-[2019.11.07-07.38.34:099][386]LogScript: Warning: Script Msg: Divide by zero detected: -70.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:106][386]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:113][386]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:118][386]LogScript: Warning: Script Msg: Divide by zero detected: 100.000008 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:126][386]LogScript: Warning: Script Msg: Divide by zero detected: -154.000031 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:132][386]LogScript: Warning: Script Msg: Divide by zero detected: -108.000000 / 0
-Script call stack:
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:BlueprintUpdateAnimation
-	Function /Game/Sekiro/Blueprints/AISystem/Blueprints/ABP_Sekiro_SunWukong.ABP_Sekiro_SunWukong_C:ExecuteUbergraph_ABP_Sekiro_SunWukong
-
-[2019.11.07-07.38.34:146][386]PIE: Play in editor start time for /Game/MultistoryDungeons/Scenes/UEDPIE_0_Demo_01 1.383
-[2019.11.07-07.38.34:147][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.38.36:136][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.38.36:136][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.38.36:137][485]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
-[2019.11.07-07.39.43:016][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.39.43:016][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.07-07.39.43:038][923]LogSlate: Window 'AITest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.07-07.39.43:095][923]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.07-07.39.43:096][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel' has LevelScriptBlueprint '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01' with GeneratedClass '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01_C' with ClassGeneratedBy '/Game/MultistoryDungeons/Scenes/Demo_01.Demo_01:PersistentLevel.Demo_01'
-[2019.11.07-07.39.43:162][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2019.11.07-07.39.43:185][924]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.11.07-07.40.36:510][115]LogEditorTransaction: Undo Add Node
-[2019.11.07-07.40.49:622][608]BlueprintLog: New page: Compile BP_Sekiro_Character
-[2019.11.07-07.40.50:039][608]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
-[2019.11.07-07.40.50:619][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
-[2019.11.07-07.40.51:038][667]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character4A6FA6BB4D41537F824D9C9BC6973C2D.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
-[2019.11.07-07.43.44:373][343]BlueprintLog: New page: Compile BP_Sekiro_Character
-[2019.11.07-07.43.44:808][343]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
-[2019.11.07-07.43.45:295][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
-[2019.11.07-07.43.45:737][388]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_Character57E9377843ABD81AA6F92CB9577F34D4.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
-[2019.11.07-07.44.29:920][373]BlueprintLog: New page: Compile BP_Sekiro_Character
-[2019.11.07-07.44.30:494][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
-[2019.11.07-07.44.30:969][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sekiro/Blueprints/BP_Sekiro_Character" FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset" SILENT=true
-[2019.11.07-07.44.31:391][413]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_CharacterCE3374B847939A6C969B6CB872355412.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/BP_Sekiro_Character.uasset'
-[2019.11.07-07.44.39:444][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.11.07-19.13.54:303][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.07-19.13.54:303][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.07-19.13.54:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:303][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.07-19.13.54:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.07-19.13.54:304][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:304][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:305][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:305][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.07-19.13.54:306][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.07-19.13.54:307][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.07-19.13.54:307][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.07-19.13.54:307][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.07-19.13.54:319][  0]LogHAL: Display: Platform has ~ 32 GB [34309324800 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.07-19.13.54:319][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.07-19.13.54:319][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.07-19.13.54:319][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Scalability.ini]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.07-19.13.54:320][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.07-19.13.54:321][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.07-19.13.54:321][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.07-19.13.54:321][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Config/Windows/Engine.ini]
+[2019.11.07-19.13.54:321][  0]LogInit: Computer: DESKTOP-G2NSNKA
+[2019.11.07-19.13.54:321][  0]LogInit: User: PC09
+[2019.11.07-19.13.54:321][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.07-19.13.54:321][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.07-19.13.54:321][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.11.07-19.13.54:321][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.07-19.13.54:321][  0]LogMemory: Process Physical Memory: 104.12 MB used, 104.13 MB peak
+[2019.11.07-19.13.54:321][  0]LogMemory: Process Virtual Memory: 99.06 MB used, 99.06 MB peak
+[2019.11.07-19.13.54:321][  0]LogMemory: Physical Memory: 11723.56 MB used,  20996.36 MB free, 32719.92 MB total
+[2019.11.07-19.13.54:321][  0]LogMemory: Virtual Memory: 4670.36 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.07-19.13.54:340][  0]LogInit: Using OS detected language (zh-TW).
+[2019.11.07-19.13.54:340][  0]LogInit: Using OS detected locale (zh-TW).
+[2019.11.07-19.13.54:341][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
+[2019.11.07-19.13.54:504][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.07-19.13.54:558][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.07-19.13.54:558][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.07-19.13.54:716][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.07-19.13.54:775][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.11.07-19.13.54:775][  0]LogD3D11RHI:       8088/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.07-19.13.54:778][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.07-19.13.54:778][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.07-19.13.54:778][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.07-19.13.54:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.07-19.13.54:786][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.07-19.13.54:786][  0]LogWindows: EnumDisplayDevices:
+[2019.11.07-19.13.54:787][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.11.07-19.13.54:787][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.11.07-19.13.54:787][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.07-19.13.54:787][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.07-19.13.54:787][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.07-19.13.54:787][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.11.07-19.13.54:787][  0]LogD3D11RHI:   Driver Version: 440.97 (internal:26.21.14.4097, unified:440.97)
+[2019.11.07-19.13.54:787][  0]LogD3D11RHI:      Driver Date: 10-16-2019
+[2019.11.07-19.13.54:787][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.11.07-19.13.54:829][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.07-19.13.54:833][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.07-19.13.54:833][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.07-19.13.54:834][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.07-19.13.54:842][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.07-19.13.55:133][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.07-19.13.55:146][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.07-19.13.55:159][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.07-19.13.55:172][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.07-19.13.55:184][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.07-19.13.55:198][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.07-19.13.55:211][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.07-19.13.55:226][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.07-19.13.55:233][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.07-19.13.55:310][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.07-19.13.55:311][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.07-19.13.55:313][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.07-19.13.55:361][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.07-19.13.55:362][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.07-19.13.55:385][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.07-19.13.55:385][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.07-19.13.55:396][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.07-19.13.55:408][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.07-19.13.55:420][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.07-19.13.55:432][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.07-19.13.55:474][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.07-19.13.55:474][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.07-19.13.55:474][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.07-19.13.55:482][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.07-19.13.55:529][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/MarkProjects/Unreal4Projects/UE4_AITest/Intermediate/Shaders/WorkingDirectory/12512/).
+[2019.11.07-19.13.55:530][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC-09/AppData/Local/Temp/UnrealShaderWorkingDir/B9BEB67E44D3A2C0E658299744F090EF/'.
+[2019.11.07-19.13.55:532][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.07-19.13.55:532][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.07-19.13.55:532][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.07-19.13.56:055][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MarkProjects/Unreal4Projects/UE4_AITest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MarkProjects/Unreal4Projects/UE4_AITest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.07-19.13.56:103][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.07-19.13.56:115][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.07-19.13.56:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.07-19.13.56:116][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.07-19.13.56:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC-09/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.07-19.13.56:128][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.07-19.13.56:128][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.07-19.13.56:151][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.07-19.13.56:153][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.07-19.13.56:153][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.07-19.13.56:235][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2019.11.07-19.13.56:556][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.07-19.13.56:691][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.07-19.13.56:691][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.07-19.13.56:691][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.07-19.13.56:691][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.07-19.13.56:691][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.07-19.13.56:703][  0]LogNetVersion: AITest 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 100952254)
+[2019.11.07-19.13.57:098][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038165 seconds
+[2019.11.07-19.13.57:105][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.07-19.13.57:105][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.07-19.13.57:105][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.07-19.13.57:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.07-19.13.57:896][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.07-19.13.58:000][  0]SourceControl: Source control is disabled
+[2019.11.07-19.13.58:000][  0]SourceControl: Source control is disabled
+[2019.11.07-19.13.58:002][  0]SourceControl: Source control is disabled
+[2019.11.07-19.13.58:003][  0]SourceControl: Source control is disabled
+[2019.11.07-19.13.58:071][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.07-19.13.58:178][  0]LogOcInput: OculusInput pre-init called
+[2019.11.07-19.13.58:806][  0]LogEngine: Initializing Engine...
+[2019.11.07-19.13.58:806][  0]LogHMD: Oculus plugin initialized. Version: 4.22.3-7053642+++UE4+Release-4.22, OVRPlugin: 1.32.0
+[2019.11.07-19.13.58:807][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.07-19.13.59:030][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.07-19.13.59:043][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.07-19.13.59:078][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.07-19.13.59:095][  0]LogInit: FAudioDevice initialized.
+[2019.11.07-19.13.59:095][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.07-19.13.59:172][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/PC-09/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.07-19.13.59:183][  0]LogInit: Texture streaming: Enabled
+[2019.11.07-19.13.59:199][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.07-19.13.59:220][  0]LogInit: Transaction tracking system initialized
+[2019.11.07-19.13.59:242][  0]BlueprintLog: New page: Editor Load
+[2019.11.07-19.13.59:324][  0]LocalizationService: Localization service is disabled
+[2019.11.07-19.13.59:604][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.07-19.13.59:604][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.07-19.13.59:770][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/' took 0.02s
+[2019.11.07-19.13.59:770][  0]SourceControl: Source control is disabled
+[2019.11.07-19.13.59:770][  0]Cmd: MAP LOAD FILE="D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/MultistoryDungeons/Scenes/Demo_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.07-19.13.59:770][  0]LightingResults: New page: Lighting Build
+[2019.11.07-19.13.59:773][  0]MapCheck: New page: Map Check
+[2019.11.07-19.13.59:773][  0]LightingResults: New page: Lighting Build
+[2019.11.07-19.13.59:797][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.07-19.14.00:968][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.00:968][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:216][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.01:216][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by Detection_GEN_VARIABLE
+[2019.11.07-19.14.01:216][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:216][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.01:216][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage Referenced by Detection_GEN_VARIABLE
+[2019.11.07-19.14.01:217][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:219][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.01:219][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by K2Node_CallFunction_1064
+[2019.11.07-19.14.01:220][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:229][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.01:229][  0]LoadErrors: Failed to load /Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage.Q_Slam_Montage Referenced by K2Node_CallFunction_1064
+[2019.11.07-19.14.01:229][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:588][  0]LogLinker: Warning: Can't find file '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage'
+[2019.11.07-19.14.01:588][  0]LogLinker: Warning: Can't find file for asset '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/Q_Slam_Montage' while loading NULL.
+[2019.11.07-19.14.01:628][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
+[2019.11.07-19.14.01:628][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
+[2019.11.07-19.14.01:648][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
+[2019.11.07-19.14.01:648][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
+[2019.11.07-19.14.01:657][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
+[2019.11.07-19.14.01:657][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
+[2019.11.07-19.14.01:657][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
+[2019.11.07-19.14.01:657][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
+[2019.11.07-19.14.02:170][  0]LogLinker: Warning: Can't find file '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData'
+[2019.11.07-19.14.02:170][  0]LoadErrors: Failed to load /Game/MultistoryDungeons/Scenes/Demo_01_BuiltData.Demo_01_BuiltData Referenced by PersistentLevel
+[2019.11.07-19.14.02:170][  0]LogLinker: Warning: Can't find file for asset '/Game/MultistoryDungeons/Scenes/Demo_01_BuiltData' while loading NULL.
+[2019.11.07-19.14.03:184][  0]LogAIModule: Creating AISystem for world Demo_01
+[2019.11.07-19.14.03:585][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.07-19.14.03:689][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.11.07-19.14.03:689][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.07-19.14.03:690][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.412ms to complete.
+[2019.11.07-19.14.03:690][  0]LogFileHelpers: Loading map 'Demo_01' took 3.920
+[2019.11.07-19.14.03:812][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-19.14.03:820][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-19.14.03:829][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-19.14.03:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.07-19.14.03:844][  0]LogCollectionManager: Loaded 0 collections in 0.001674 seconds
+[2019.11.07-19.14.03:860][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Collections/' took 0.01s
+[2019.11.07-19.14.03:860][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Developers/PC09/Collections/' took 0.00s
+[2019.11.07-19.14.03:860][  0]LogFileCache: Scanning file cache for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Collections/' took 0.00s
+[2019.11.07-19.14.03:860][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.07-19.14.03:869][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2732 classes and 659 folders.
+[2019.11.07-19.14.03:875][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.07-19.14.03:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:880][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:880][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.07-19.14.03:915][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.07-19.14.03:921][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.07-19.14.05:186][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.07-19.14.05:247][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.07-19.14.05:250][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.07-19.14.05:256][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.07-19.14.05:259][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.07-19.14.05:370][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.07-19.14.05:547][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.07-19.14.05:547][  0]LogLoad: (Engine Initialization) Total time: 12.84 seconds
+[2019.11.07-19.14.05:548][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.07-19.14.05:566][  0]LogOcInput: OculusInput is initialized
+[2019.11.07-19.14.05:635][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.07-19.14.05:643][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.07-19.14.05:679][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.07-19.14.05:731][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/' took 0.15s
+[2019.11.07-19.14.05:763][  1]LogAssetRegistry: Asset discovery search completed in 9.5512 seconds
+[2019.11.07-19.14.05:768][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.07-19.14.05:768][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000203 seconds (updated 0 objects)
+[2019.11.07-19.14.09:129][ 12]LogSlate: Took 0.001281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.07-19.16.40:511][298]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.07-19.16.50:147][298]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.07-19.17.06:146][189]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager
+[2019.11.07-19.17.06:535][189]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.11.07-19.17.11:769][560]LogSlate: Took 0.007751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.07-19.17.13:870][733]LogSlate: Took 0.006974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.07-19.17.14:918][829]LogSlate: Window 'BP_Sekiro_PlayerCameraManager' being destroyed
+[2019.11.07-19.17.54:434][256]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.07-19.18.15:063][715]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Sekiro/Blueprints/BP_Sekiro_CameraModifier.BP_Sekiro_CameraModifier
+[2019.11.07-19.19.06:938][831]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_CameraModifier.SKEL_BP_Sekiro_CameraModifier_C' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_CameraModifier.PackageMetaData'
+[2019.11.07-19.19.06:938][831]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_CameraModifier.BP_Sekiro_CameraModifier_C' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_CameraModifier.PackageMetaData'
+[2019.11.07-19.19.06:973][831]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_CameraModifierD12BD6054EED4E73D28D43B6B317639E.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/CameraSystem/BP_Sekiro_CameraModifier.uasset'
+[2019.11.07-19.19.07:200][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.11.07-19.19.07:242][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.11.07-19.19.07:279][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.11.07-19.19.12:820][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:820][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.SKEL_BP_Sekiro_PlayerCameraManager_C:UserConstructionScript' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:821][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.SKEL_BP_Sekiro_PlayerCameraManager_C' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:821][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager_C' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:821][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:821][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:822][427]LogMetaData: Removing '/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sekiro/Blueprints/BP_Sekiro_PlayerCameraManager.PackageMetaData'
+[2019.11.07-19.19.12:855][427]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_PlayerCameraManager93CD37D8484478878CCD398B8AA40D61.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Content/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.uasset'
+[2019.11.07-19.19.13:068][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.11.07-19.19.13:107][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.11.07-19.19.13:139][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.11.07-19.20.06:539][103]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.07-19.27.54:272][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.07-19.27.54:273][737]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultistoryDungeons/Scenes/Demo_01' took 0.037
+[2019.11.07-19.27.54:275][737]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager] ([1] browsable assets)...
+[2019.11.07-19.27.54:275][737]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager]
+[2019.11.07-19.27.54:319][737]LogSavePackage: Moving 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/BP_Sekiro_PlayerCameraManager_AuAD9A44CF47FE96EFEAEB5D9B1DBACCF1.tmp' to 'D:/MarkProjects/Unreal4Projects/UE4_AITest/Saved/Autosaves/Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager_Auto1.uasset'
+[2019.11.07-19.27.54:320][737]LogFileHelpers: Auto-saving content packages took 0.046
+[2019.11.07-19.41.32:871][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.11.07-19.41.34:038][780]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.07-19.41.34:173][780]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Sekiro/Blueprints/CameraSystem/BP_Sekiro_PlayerCameraManager.BP_Sekiro_PlayerCameraManager
+[2019.11.07-19.41.40:301][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.07-19.41.40:333][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.07-19.41.40:367][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.07-19.41.42:837][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.07-19.42.01:907][ 70]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.07-19.42.01:994][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.11.07-19.42.02:029][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.07-19.42.02:060][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.07-19.43.34:456][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
